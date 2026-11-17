@@ -128,3 +128,5 @@ Each lesson ends with **"Why did it change?"**: the problem the old way had and 
 | Task | Status | Review notes |
 |------|--------|--------------|
 | 1.1 | 🔁 Changes requested (review 1) | Vite + React 19 + TS 6 scaffold works; lint and build pass. Missing: explicit `strict` + `noUncheckedIndexedAccess`, Prettier, `format`/`typecheck` scripts, demo cleanup, folder structure, git commit, written answers. |
+| 1.1 | 🔁 Changes requested (review 2) | Git + GitHub remote ✅, folders created, Prettier installed. Still to do: `strict` is outside `compilerOptions` (ignored); lint/build fail on unused imports in App.tsx; Prettier not wired into ESLint and has no config; no `format`/`typecheck` scripts; empty folders not committed (need `.gitkeep`); package.json changes uncommitted; answers missing. |
+| 1.1 | 🔁 Almost done (review 3) | ✅ lint, typecheck, build pass; strict + noUncheckedIndexedAccess in place; scripts + Prettier config added. Left: wire `eslint-config-prettier` into eslint.config.js, run `npm run format`, add `.gitkeep`s, commit + push, answer the 4 questions. |
